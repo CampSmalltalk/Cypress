@@ -1,7 +1,6 @@
 private
 basePackageStructureJson
-
-	^'{
+    ^ '{
 	"name" : "Cypress-Mocks.package",
 	"contents" : [
 		{
@@ -38,19 +37,19 @@ basePackageStructureJson
 				 }			],
 			"README.md" : "This%20mock%20contains%20basic%20class%20and%20instance%20method%20selectors",
 			"properties.json" : {
-				"name" : "CypressMockBasic",
-				"super" : "Object",
+				"classinstvars" : [
+					"current" ],
 				"instvars" : [
 					"name" ],
-				"classinstvars" : [
-					"current" ] }
+				"name" : "CypressMockBasic",
+				"super" : "Object" }
 		 },
 		{
 			"name" : "Object.extension",
 			"instance" : [
 				{
 					"name" : "isCypressMockBasic.st",
-					"contents" : "*Cypress-Mocks%0AisCypressMockBasic%0A%09%5Efalse"
+					"contents" : "%2ACypress-Mocks%0AisCypressMockBasic%0A%09%5Efalse"
 				 }			],
 			"class" : [
 			],

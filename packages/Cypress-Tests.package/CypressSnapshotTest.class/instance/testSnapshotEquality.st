@@ -5,4 +5,4 @@ testSnapshotEquality
 	pkg := CypressPackageDefinition new name: name.
 	packageDefinitions := pkg snapshot definitions.
 	expectedDefinitions := self baseDefinitions.
-	self assert: packageDefinitions = expectedDefinitions
+	self assert: packageDefinitions asArray = expectedDefinitions asArray

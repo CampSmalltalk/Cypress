@@ -1,14 +1,13 @@
 private
 sampleJson
-
-	^'{
-	"name" : "John%20Smith",
+    ^ '{
 	"age" : 25,
-	"registered" : true,
+	"name" : "John%20Smith",
 	"phoneNumber" : [
 		{
-			"type" : "home",
-			"number" : "212%20555-1234" },
+			"number" : "212%20555-1234",
+			"type" : "home" },
 		{
-			"type" : "fax",
-			"number" : "646%20555-4567" } ] }'
+			"number" : "646%20555-4567",
+			"type" : "fax" } ],
+	"registered" : true }'

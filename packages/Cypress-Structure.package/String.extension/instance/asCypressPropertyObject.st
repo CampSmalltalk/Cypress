@@ -1,3 +1,3 @@
 *Cypress-Structure
 asCypressPropertyObject
-    ^ self unescapePercents
+    ^ self unescapePercents withUnixLineEndings

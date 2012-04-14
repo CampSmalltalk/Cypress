@@ -1,4 +1,4 @@
 private
 compileJSON: aJsonString
 
-	^(Compiler new eval: '(', aJsonString , ')')
+	^MCFileTreeJsonParser parse: aJsonString

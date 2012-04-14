@@ -2,10 +2,10 @@ private
 extractCypressSource: aString
 
 	| stream categoryStream sourceStream readingCategory |
-	stream := StringStream on: aString.
+	stream := WriteStream on: aString.
 	stream reset.
-	categoryStream := StringStream on: String new.
-	sourceStream := StringStream on: String new.
+	categoryStream := WriteStream on: String new.
+	sourceStream := WriteStream on: String new.
 	readingCategory := true.
 	[ stream atEnd] whileFalse: [ | char |
 		char := stream next.

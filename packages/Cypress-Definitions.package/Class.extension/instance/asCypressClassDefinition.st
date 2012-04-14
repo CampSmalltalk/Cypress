@@ -4,6 +4,6 @@ asCypressClassDefinition
 		name: self name
 		superclassName: self superclass name
 		category: self category 
-		instVarNames: self instanceVariableNames
-		classInstVarNames: self class instanceVariableNames
+		instVarNames: self instVarNames
+		classInstVarNames: self class instVarNames
 		comment: self comment

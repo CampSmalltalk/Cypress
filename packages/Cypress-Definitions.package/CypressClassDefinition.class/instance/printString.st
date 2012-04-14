@@ -2,7 +2,7 @@ printString
 printString
 
 	| str |
-	str := StringStream on: String new.
+	str := WriteStream on: String new.
 	str 
 		nextPutAll: super printString;
 		nextPutAll: ' (';

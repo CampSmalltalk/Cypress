@@ -2,4 +2,4 @@ accessing
 selector
 
 	^String
-		streamContents: [:stream | self name do: [:chara | stream nextPutAll: (chara = '.' ifTrue:  [ ':' ] ifFalse: [ chara ])]]
+		streamContents: [:stream | self name do: [:chara | stream nextPut:  (chara = '.' ifTrue:  [ ':' ] ifFalse: [ chara ])]]

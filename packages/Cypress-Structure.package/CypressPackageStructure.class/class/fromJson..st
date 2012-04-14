@@ -1,4 +1,4 @@
 instance creation
 fromJson: aJsonString
 
-	^self fromJs: (Compiler new eval: '(', aJsonString , ')')
+	^self fromJs: (MCFileTreeJsonParser parse: aJsonString)

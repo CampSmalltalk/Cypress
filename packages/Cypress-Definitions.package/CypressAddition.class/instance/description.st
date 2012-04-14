@@ -1,4 +1,3 @@
 accessing
 description
-
-	^'add: ', self definition description
+    ^ 'add: ' , self definition printString

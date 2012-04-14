@@ -1,6 +1,6 @@
 loading
 basicLoad
-	errorDefinitions := OrderedCollection new.
+	errors := OrderedCollection new.
 	self additions do: [:ea | self loadClassDefinition: ea ]. "load class definitions first"
 	self additions do: [:ea | self loadMethodDefinition: ea ] . "load method definitions now"
 	self removals do: [:ea | self unloadDefinition: ea ]. "now we can remove things"

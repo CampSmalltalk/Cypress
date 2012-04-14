@@ -1,4 +1,3 @@
 *Cypress-Structure
 asCypressPropertyObject
-
-	^self unescaped
+    ^ self unescapePercents

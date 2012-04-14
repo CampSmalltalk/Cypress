@@ -1,4 +1,4 @@
 accessing
 description
 
-	^'remove: ', self definition description
+	^'remove: ', self definition printString

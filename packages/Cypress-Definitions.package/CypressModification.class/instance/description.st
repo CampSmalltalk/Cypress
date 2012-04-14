@@ -1,4 +1,3 @@
 accessing
 description
-
-	^'modify from: ', self obsoletion description, ' to: ', self modification description
+    ^ 'modify from: ' , self obsoletion printString , ' to: ' , self modification printString

@@ -1,3 +1,3 @@
 loading
 loadMethodDefinition
-    self actualClass compile: self source withUnixLineEndings classified: self category
+    self actualClass compile: self source classified: self category

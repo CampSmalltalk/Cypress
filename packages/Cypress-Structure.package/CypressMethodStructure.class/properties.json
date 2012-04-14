@@ -1,0 +1,18 @@
+{
+	"category" : "Cypress-Structure",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"isMetaclass",
+		"classStructure" ],
+	"name" : "CypressMethodStructure",
+	"pools" : [
+		 ],
+	"super" : "CypressStructure",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

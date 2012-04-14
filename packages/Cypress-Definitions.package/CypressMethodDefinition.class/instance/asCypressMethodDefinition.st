@@ -1,0 +1,4 @@
+converting
+asCypressMethodDefinition
+
+	^self

@@ -1,0 +1,16 @@
+{
+	"category" : "Cypress-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CypressSnapshotTest",
+	"pools" : [
+		 ],
+	"super" : "CypressAbstractTest",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

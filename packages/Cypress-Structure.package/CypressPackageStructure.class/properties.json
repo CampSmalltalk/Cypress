@@ -1,0 +1,17 @@
+{
+	"category" : "Cypress-Structure",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classes",
+		"extensions" ],
+	"name" : "CypressPackageStructure",
+	"pools" : [
+		 ],
+	"super" : "CypressStructure",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

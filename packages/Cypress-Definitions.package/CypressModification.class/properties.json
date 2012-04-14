@@ -1,0 +1,17 @@
+{
+	"category" : "Cypress-Definitions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"obsoletion",
+		"modification" ],
+	"name" : "CypressModification",
+	"pools" : [
+		 ],
+	"super" : "CypressPatchOperation",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

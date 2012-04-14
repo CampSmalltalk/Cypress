@@ -1,0 +1,4 @@
+accessing
+classIsMeta
+
+	^classIsMeta

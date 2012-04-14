@@ -1,0 +1,20 @@
+{
+	"category" : "Cypress-Definitions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classIsMeta",
+		"source",
+		"category",
+		"selector",
+		"className" ],
+	"name" : "CypressMethodDefinition",
+	"pools" : [
+		 ],
+	"super" : "CypressDefinition",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

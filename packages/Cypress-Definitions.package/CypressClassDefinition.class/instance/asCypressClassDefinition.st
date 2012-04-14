@@ -1,0 +1,4 @@
+converting
+asCypressClassDefinition
+
+	^self

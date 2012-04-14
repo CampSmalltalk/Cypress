@@ -1,0 +1,4 @@
+accessing
+classInstVarNames
+
+	^classInstVarNames

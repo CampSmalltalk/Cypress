@@ -3,4 +3,4 @@ loadMethodDefinition
 
 	self actualClass
 		compile: self source
-		category: self category
+		classified: self category

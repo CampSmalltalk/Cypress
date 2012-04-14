@@ -8,11 +8,11 @@ snapshot
             definitions add: cls asCypressClassDefinition.
             (cls methodDictionary values sorted: [ :a :b | a selector <= b selector ])
                 do: [ :method | 
-                    (method category match: '^\*')
+                    (method category at: 1) = $*
                         ifFalse: [ definitions add: method asCypressMethodDefinition ] ].
             (cls class methodDictionary values sorted: [ :a :b | a selector <= b selector ])
                 do: [ :method | 
-                    (method category match: '^\*')
+                    (method category at: 1) = $*
                         ifFalse: [ definitions add: method asCypressMethodDefinition ] ] ].
     classMap := Dictionary new.
     Smalltalk allClasses
@@ -27,12 +27,12 @@ snapshot
                         do: [ :category | 
                             | methods |
                             methods := aClass organization listAtCategoryNamed: category.
-                            (category match: '^\*' , self name)
+                            (category asLowercase beginsWith: '*' , self name asLowercase)
                                 ifTrue: [ map at: category put: methods ] ].
                     (map keys sorted: [ :a :b | a <= b ])
                         do: [ :category | 
                             ((map at: category) sorted: [ :a :b | a selector <= b selector ])
-                                do: [ :method | defs add: (aClass compiledMethodAt: method )asCypressMethodDefinition ] ].
+                                do: [ :method | defs add: (aClass compiledMethodAt: method) asCypressMethodDefinition ] ].
                     defs notEmpty
                         ifTrue: [ classMap at: each put: defs ] ] ].
     (Class superclassOrder: classMap keys) do: [ :aClass | definitions addAll: (classMap at: aClass) ].

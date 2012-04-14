@@ -1,3 +1,3 @@
 loading
 theNonMetaClass
-	^Smalltalk current at: self className
+	^Smalltalk globals at: self className asSymbol

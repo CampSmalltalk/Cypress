@@ -1,6 +1,4 @@
 loading
 unloadDefinition
 
-	| cls |
-	cls := self actualClass.
-	cls removeCompiledMethod: (cls methodAt: self selector)
+	self actualClass removeSelector: self selector asSymbol

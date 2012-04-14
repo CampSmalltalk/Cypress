@@ -1,10 +1,13 @@
 loading
 createClass
-
-	| superClass |
-	superClass := Smalltalk current at: self superclassName.
-	^ClassBuilder new
-		superclass: superClass 
-		subclass: self name
-		instanceVariableNames: self instVarNames 
-		package: self category
+    | superClass |
+    superClass := Smalltalk globals at: self superclassName.
+    ^ ClassBuilder new
+        name: self name
+        inEnvironment: superClass environment
+        subclassOf: superClass
+        type: #'normal'
+        instanceVariableNames: self instanceVariablesString
+        classVariableNames: self classInstanceVariablesString
+        poolDictionaries: ''
+        category: category

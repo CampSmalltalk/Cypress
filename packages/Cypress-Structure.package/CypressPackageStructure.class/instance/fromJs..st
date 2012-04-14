@@ -6,12 +6,12 @@ fromJs: jsObject
 		classStructure := (CypressClassStructure new)
                 		packageStructure: self;
 				yourself.
-                ((objectName := jsClassObject at: 'name') match: '.extension$')
+                (  '*.extension' match:(objectName := jsClassObject at: 'name') )
 			ifTrue: [ 
 				classStructure isClassExtension: true.
 				self extensions add: classStructure ]
 			ifFalse: [
-				(objectName match: '.class$')
+				( '*.class' match: objectName)
 					ifTrue: [ 
 						classStructure isClassExtension: false.
 						self classes add: classStructure ]].

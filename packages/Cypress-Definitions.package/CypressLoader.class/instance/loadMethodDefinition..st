@@ -1,3 +1,5 @@
 operations
 loadMethodDefinition: aPatchOperation
-	[ aPatchOperation loadMethodDefinition ] on: Error do: [ self errors add: aPatchOperation ].
+    [ aPatchOperation loadMethodDefinition ]
+        on: Error
+        do: [ :ex | self errors add: aPatchOperation ]

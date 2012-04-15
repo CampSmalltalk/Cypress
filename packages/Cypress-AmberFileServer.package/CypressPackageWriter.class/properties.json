@@ -1,0 +1,18 @@
+{
+	"category" : "Cypress-AmberFileServer",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packageStructure",
+		"rootDirectory",
+		"packageDirectory" ],
+	"name" : "CypressPackageWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

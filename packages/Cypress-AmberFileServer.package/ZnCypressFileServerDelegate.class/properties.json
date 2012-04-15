@@ -1,0 +1,16 @@
+{
+	"category" : "Cypress-AmberFileServer",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packagePaths" ],
+	"name" : "ZnCypressFileServerDelegate",
+	"pools" : [
+		 ],
+	"super" : "ZnAmberFileServerDelegate",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

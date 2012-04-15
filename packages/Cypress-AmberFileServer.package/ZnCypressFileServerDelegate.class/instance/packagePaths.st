@@ -1,5 +1,5 @@
 accessing
 packagePaths
 
-	packagePaths ifNil: [ packagePaths := OrderedCollection with: 'packages'  ].
+	packagePaths ifNil: [ packagePaths := OrderedCollection withAll: #( 'packages' 'tests/scratch' ) ].
 	^packagePaths

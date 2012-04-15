@@ -1,6 +1,7 @@
 instance creation
 readPackageStructureFrom: aPackagesDirectory
 
-	self new
+	^(self new)
 		packageDirectory: aPackagesDirectory;
-		read
+		read;
+		yourself

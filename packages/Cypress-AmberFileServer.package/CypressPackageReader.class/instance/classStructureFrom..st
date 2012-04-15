@@ -2,6 +2,6 @@ private
 classStructureFrom: classPropertiesDict 
 
 	^(CypressClassStructure new)
-		isClassExtension: false;
+		isClassExtension: true;
 		properties: classPropertiesDict;
 		yourself

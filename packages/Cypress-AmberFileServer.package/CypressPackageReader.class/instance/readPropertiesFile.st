@@ -2,6 +2,6 @@ reading
 readPropertiesFile	
 
 	self packageDirectory 
-		readOnlyFileNamed: self name 
+		readOnlyFileNamed: 'properties.json'
 		do: [:fileStream |
 			properties := MCFileTreeJsonParser parseStream: fileStream ]

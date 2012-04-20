@@ -1,6 +1,7 @@
 public
 handleRequest: request
 	| uri path |
+	Transcript show: '.'.
 	uri := request uri.
 	uri pathSegments ~~ nil 
 		ifTrue: [ 

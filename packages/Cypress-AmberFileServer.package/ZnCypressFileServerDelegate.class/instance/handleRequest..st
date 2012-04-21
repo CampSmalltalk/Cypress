@@ -7,5 +7,8 @@ handleRequest: request
 		ifTrue: [ 
 			path := uri path.
 			self packagePaths do: [:packagePath |
-				(path beginsWith: packagePath) ifTrue:  [ ^self handlePackageRequest: request ]]].
+				(path beginsWith: packagePath) 
+					ifTrue:  [ 
+						(self directory directoryNamed: packagePath) exists 
+							ifTrue: [ ^self handlePackageRequest: request  ]]]].
 	^ super handleRequest: request

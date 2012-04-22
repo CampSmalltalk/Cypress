@@ -1,14 +1,10 @@
 public
 handleRequest: request
-	| uri path |
+	| uri |
 	Transcript show: '.'.
 	uri := request uri.
 	uri pathSegments ~~ nil 
 		ifTrue: [ 
-			path := uri path.
-			self packagePaths do: [:packagePath |
-				(path beginsWith: packagePath) 
-					ifTrue:  [ 
-						(self directory directoryNamed: packagePath) exists 
-							ifTrue: [ ^self handlePackageRequest: request  ]]]].
+			(uri path beginsWith: self cypressPackageTag) 
+				ifTrue:  [^self handlePackageRequest: request  ]].
 	^ super handleRequest: request

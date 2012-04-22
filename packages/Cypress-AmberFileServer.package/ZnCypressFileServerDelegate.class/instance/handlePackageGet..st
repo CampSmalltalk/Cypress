@@ -2,7 +2,7 @@ private
 handlePackageGet: request
 
 	| reader packageDir |
-	packageDir := FileDirectory on: self directory fullName, FileDirectory slash, request uri path.
+	packageDir := self packageDirectoryFor: request.
 	packageDir exists 
 		ifFalse: [ 
 			self notifyAmberFailedGetIn: packageDir fullName message: 'Directory does not exist'. 

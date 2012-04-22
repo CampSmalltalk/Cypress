@@ -1,7 +1,15 @@
 private
 handlePackagePut: request
 
-	CypressPackageWriter 
-		writePackageStructure: (CypressPackageStructure fromJson: request entity string) 
-		to: (FileDirectory on: self directory fullName, FileDirectory slash, request uri path)
-	
+	| packageDir packageStructure |
+	[
+		packageStructure := CypressPackageStructure fromJson: request entity string.
+		CypressPackageWriter 
+			writePackageStructure: packageStructure
+			to: (packageDir := self packageDirectoryFor: request)]
+				on: Error
+				do: [:ex | self halt.
+					self notifyAmberFailed: 'PUT' in: packageDir fullName message: ex messageText.
+					^ZnResponse serverError: ex messageText ].
+	self notifyAmberCommitIn: packageDir fullName, '/', packageStructure name.
+	^ZnResponse created: request uri

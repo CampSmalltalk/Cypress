@@ -1,0 +1,16 @@
+{
+	"category" : "Cypress-AmberFileServer",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CypressAmberServerControl",
+	"pools" : [
+		 ],
+	"super" : "AmberServerControl",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

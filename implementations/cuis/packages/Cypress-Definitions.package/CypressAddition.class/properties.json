@@ -1,0 +1,7 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"definition" ],
+	"name" : "CypressAddition",
+	"super" : "CypressPatchOperation" }

@@ -1,0 +1,4 @@
+*Cypress-Structure
+asCypressPropertyObject
+
+	^self

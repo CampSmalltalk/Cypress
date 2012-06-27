@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"updatePackage:withSnapshot:" : "" },
+	"instance" : {
+		"additions" : "",
+		"analyze" : "",
+		"analyzeAdditions" : "",
+		"analyzeRemovals" : "",
+		"applyAddition:" : "",
+		"applyModification:" : "",
+		"applyRemoval:" : "",
+		"basicLoad" : "dkh 4/23/2012 20:26",
+		"errors" : "",
+		"handleErrorFor:during:" : "dkh 4/24/2012 15:30",
+		"load" : "",
+		"loadClassDefinition:" : "",
+		"loadMethodDefinition:" : "",
+		"methodAdditions" : "",
+		"postLoad:" : "",
+		"provisions" : "dkh 4/23/2012 21:03",
+		"removals" : "",
+		"unloadDefinition:" : "",
+		"unloadable" : "",
+		"updatePackage:withSnapshot:" : "" } }

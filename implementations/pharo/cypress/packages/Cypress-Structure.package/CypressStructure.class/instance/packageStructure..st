@@ -1,0 +1,3 @@
+accessing
+packageStructure: aCypressPackageStructure
+	packageStructure := aCypressPackageStructure

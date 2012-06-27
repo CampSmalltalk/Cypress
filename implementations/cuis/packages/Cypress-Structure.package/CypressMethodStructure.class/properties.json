@@ -1,0 +1,10 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"source",
+		"isMetaclass",
+		"classStructure",
+		"timeStamp" ],
+	"name" : "CypressMethodStructure",
+	"super" : "CypressStructure" }

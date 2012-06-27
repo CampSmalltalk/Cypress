@@ -1,0 +1,7 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"definitionMap" ],
+	"name" : "CypressDefinitionIndex",
+	"super" : "Object" }

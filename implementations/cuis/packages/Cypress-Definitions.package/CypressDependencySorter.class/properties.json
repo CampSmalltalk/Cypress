@@ -1,0 +1,9 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"required",
+		"provided",
+		"orderedItems" ],
+	"name" : "CypressDependencySorter",
+	"super" : "Object" }

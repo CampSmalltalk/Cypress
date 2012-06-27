@@ -1,0 +1,8 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"obsoletion",
+		"modification" ],
+	"name" : "CypressModification",
+	"super" : "CypressPatchOperation" }

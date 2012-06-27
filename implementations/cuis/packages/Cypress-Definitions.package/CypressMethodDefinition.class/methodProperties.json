@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"className:classIsMeta:selector:category:source:" : "",
+		"className:classIsMeta:selector:category:source:timeStamp:" : "jmv 6/14/2012 23:54" },
+	"instance" : {
+		"=" : "",
+		"actualClass" : "",
+		"asCypressMethodDefinition" : "",
+		"category" : "",
+		"classDefinition:methodDefinition:" : "",
+		"classIsMeta" : "",
+		"className" : "",
+		"className:classIsMeta:selector:category:source:" : "dkh 4/24/2012 00:27",
+		"className:classIsMeta:selector:category:source:timeStamp:" : "jmv 6/14/2012 23:49",
+		"description" : "",
+		"hash" : "dkh 4/23/2012 23:20",
+		"instanceMethod:classMethod:" : "",
+		"isInitializer" : "",
+		"loadMethodDefinition" : "jmv 6/14/2012 23:48",
+		"postLoadOver:" : "",
+		"printString" : "dkh 4/23/2012 20:24",
+		"requirements" : "",
+		"selector" : "",
+		"source" : "",
+		"theNonMetaClass" : "dkh 4/24/2012 15:26",
+		"timeStamp" : "jmv 6/14/2012 23:57",
+		"unloadDefinition" : "dkh 4/24/2012 15:28" } }

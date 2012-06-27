@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"=" : "",
+		"actualClass" : "",
+		"classDefinition:methodDefinition:" : "",
+		"description" : "",
+		"isRevisionOf:" : "",
+		"isSameRevisionAs:" : "",
+		"loadClassDefinition" : "",
+		"loadMethodDefinition" : "",
+		"postLoad" : "",
+		"postLoadOver:" : "",
+		"provisions" : "",
+		"requirements" : "",
+		"unloadDefinition" : "" } }

@@ -1,0 +1,7 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		 ],
+	"name" : "CypressAbstractTest",
+	"super" : "TestCase" }

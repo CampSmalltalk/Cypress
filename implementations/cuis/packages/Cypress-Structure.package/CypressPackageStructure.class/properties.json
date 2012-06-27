@@ -1,0 +1,8 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"classes",
+		"extensions" ],
+	"name" : "CypressPackageStructure",
+	"super" : "CypressStructure" }

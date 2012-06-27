@@ -1,0 +1,9 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"name",
+		"properties",
+		"packageStructure" ],
+	"name" : "CypressStructure",
+	"super" : "Object" }

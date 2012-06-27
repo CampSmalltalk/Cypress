@@ -1,0 +1,7 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"definition" ],
+	"name" : "CypressRemoval",
+	"super" : "CypressPatchOperation" }

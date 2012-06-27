@@ -1,0 +1,9 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"packageDirectory",
+		"packageStructure",
+		"properties" ],
+	"name" : "CypressPackageReader",
+	"super" : "Object" }

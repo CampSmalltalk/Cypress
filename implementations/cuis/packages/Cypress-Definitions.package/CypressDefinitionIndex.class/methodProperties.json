@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"definitions:" : "" },
+	"instance" : {
+		"add:" : "",
+		"addAll:" : "",
+		"definitionLike:ifPresent:ifAbsent:" : "",
+		"definitionMap" : "",
+		"definitions" : "",
+		"remove:" : "" } }

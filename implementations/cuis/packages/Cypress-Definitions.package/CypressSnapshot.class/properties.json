@@ -1,0 +1,7 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"definitions" ],
+	"name" : "CypressSnapshot",
+	"super" : "Object" }

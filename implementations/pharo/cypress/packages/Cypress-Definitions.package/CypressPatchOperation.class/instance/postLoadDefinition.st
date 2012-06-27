@@ -1,0 +1,3 @@
+loading
+postLoadDefinition
+	self subclassResponsibility

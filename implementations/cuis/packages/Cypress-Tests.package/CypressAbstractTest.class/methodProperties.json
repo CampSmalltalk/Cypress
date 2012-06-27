@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"baseDefinitions" : "dkh 4/24/2012 01:03",
+		"basePackageStructureJson" : "dkh 4/24/2012 00:45",
+		"baseTargetPatch" : "",
+		"classComment" : "dkh 4/24/2012 01:04",
+		"compileJSON:" : "dkh 4/23/2012 21:33",
+		"sampleJson" : "dkh 4/24/2012 00:04",
+		"targetDefinitions" : "",
+		"validatePackage:against:" : "dkh 4/24/2012 00:55" } }

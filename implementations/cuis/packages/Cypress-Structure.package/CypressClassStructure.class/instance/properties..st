@@ -1,0 +1,3 @@
+accessing
+properties: classPropertiesDict
+	properties _ classPropertiesDict

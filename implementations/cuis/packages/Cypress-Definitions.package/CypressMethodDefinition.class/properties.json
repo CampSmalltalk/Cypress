@@ -1,0 +1,12 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"classIsMeta",
+		"source",
+		"category",
+		"selector",
+		"className",
+		"timeStamp" ],
+	"name" : "CypressMethodDefinition",
+	"super" : "CypressDefinition" }

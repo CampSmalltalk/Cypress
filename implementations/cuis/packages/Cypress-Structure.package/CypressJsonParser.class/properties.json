@@ -1,0 +1,7 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"stream" ],
+	"name" : "CypressJsonParser",
+	"super" : "Object" }

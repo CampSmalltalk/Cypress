@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"fromMethodDefinition:" : "" },
+	"instance" : {
+		"asCypressMethodDefinition" : "jmv 6/14/2012 23:50",
+		"category" : "",
+		"category:" : "",
+		"classStructure" : "",
+		"classStructure:" : "",
+		"cypressSource" : "dkh 4/23/2012 23:37",
+		"extractCypressSource:" : "dkh 4/23/2012 23:28",
+		"fromJs:named:" : "",
+		"fromMethodDefinition:" : "jmv 6/15/2012 00:21",
+		"isMetaclass" : "",
+		"isMetaclass:" : "",
+		"selector" : "dkh 4/24/2012 00:07",
+		"selector:" : "dkh 4/24/2012 00:06",
+		"source" : "",
+		"source:" : "",
+		"timeStamp" : "jmv 6/14/2012 23:50",
+		"timeStamp:" : "jmv 6/14/2012 23:51",
+		"writeJsonOn:indent:" : "jmv 6/14/2012 23:09" } }

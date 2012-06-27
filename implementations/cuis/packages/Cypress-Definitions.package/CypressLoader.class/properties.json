@@ -1,0 +1,13 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"additions",
+		"removals",
+		"unloadable",
+		"provisions",
+		"errors",
+		"methodAdditions",
+		"requirements" ],
+	"name" : "CypressLoader",
+	"super" : "Object" }

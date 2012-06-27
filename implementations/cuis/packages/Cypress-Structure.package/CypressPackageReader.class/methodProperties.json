@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"installAsCodePackage:" : "jmv 6/13/2012 09:10",
+		"readPackageStructureFrom:" : "dkh 4/22/2012 13:24:15" },
+	"instance" : {
+		"classStructureFrom:" : "jmv 6/6/2012 23:24",
+		"classStructureFrom:comment:" : "dkh 4/22/2012 13:24:15",
+		"packageDirectory" : "dkh 4/22/2012 13:24:15",
+		"packageDirectory:" : "dkh 4/22/2012 13:24:15",
+		"packageStructure" : "dkh 4/22/2012 13:24:15",
+		"packageStructure:" : "dkh 4/22/2012 13:24:15",
+		"read" : "dkh 4/22/2012 13:24:15",
+		"readClassStructureFromEntry:" : "jmv 6/14/2012 23:45",
+		"readExtensionClassStructureFromEntry:" : "jmv 6/14/2012 23:45",
+		"readMethodStructureFor:in:methodProperties:" : "jmv 6/14/2012 23:54",
+		"readPackageStructure" : "jmv 6/6/2012 23:06",
+		"readPropertiesFile" : "dkh 4/23/2012 20:20" } }

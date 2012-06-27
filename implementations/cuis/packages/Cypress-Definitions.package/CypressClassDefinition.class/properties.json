@@ -1,0 +1,12 @@
+{
+	"classinstvars" : [
+		 ],
+	"instvars" : [
+		"name",
+		"superclassName",
+		"category",
+		"comment",
+		"instVarNames",
+		"classInstVarNames" ],
+	"name" : "CypressClassDefinition",
+	"super" : "CypressDefinition" }

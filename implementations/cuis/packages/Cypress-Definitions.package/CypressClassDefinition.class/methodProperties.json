@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"name:superclassName:category:instVarNames:classInstVarNames:comment:" : "" },
+	"instance" : {
+		"=" : "",
+		"actualClass" : "jmv 6/7/2012 00:07",
+		"asCypressClassDefinition" : "",
+		"category" : "",
+		"classDefinition:methodDefinition:" : "",
+		"classInstVarNames" : "",
+		"className" : "",
+		"comment" : "",
+		"createClass" : "jmv 6/7/2012 00:07",
+		"description" : "",
+		"hash" : "dkh 4/23/2012 21:30",
+		"instVarNames" : "",
+		"loadClassDefinition" : "",
+		"name" : "",
+		"name:superclassName:category:instVarNames:classInstVarNames:comment:" : "jmv 6/7/2012 00:09",
+		"printString" : "dkh 4/23/2012 20:24",
+		"provisions" : "",
+		"requirements" : "jmv 6/7/2012 00:04",
+		"stringForVariables:" : "",
+		"superclassName" : "",
+		"unloadDefinition" : "jmv 6/7/2012 00:07" } }

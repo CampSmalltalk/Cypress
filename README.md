@@ -1,5 +1,5 @@
 This effort has been sparked by Dale's [presentation](http://portal.sliderocket.com/vmware/STIC-2012-Practical-Git-for-Smalltalk)
-at STIC 2012.
+at STIC 2012 ([video](http://www.stic.st/conferences/stic12/stic12-abstracts/practical-git-for-smalltalk/)).
 
 # Goals
 

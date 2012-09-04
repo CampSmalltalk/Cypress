@@ -23,6 +23,8 @@ move changes between these branches.
 
 * [Pharo (FileTree)](https://github.com/dalehenrich/filetree)
 
+* [Smalltalk/X (Cypress)](https://swing.fit.cvut.cz/projects/stx-goodies/browser/stx.goodies.cypress/trunk)
+
 * [Squeak (FileTree)](https://github.com/dalehenrich/filetree)
 
 * [VW (STIG)](https://github.com/CampSmalltalk/STIG)

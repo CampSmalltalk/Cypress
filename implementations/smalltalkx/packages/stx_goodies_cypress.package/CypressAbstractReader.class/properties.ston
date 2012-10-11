@@ -1,0 +1,15 @@
+{
+	"_cypress_copyright" : "Copyright Jan Vrany & Dale Henrichs 2012",
+	"category" : "Cypress-New-Reader & Writer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"instvars" : [
+		"packageId" ],
+	"name" : "CypressAbstractReader",
+	"namespace" : "Smalltalk",
+	"pools" : [
+		 ],
+	"super" : "CypressAbstractReaderWriter",
+	"superNamespace" : "Smalltalk" }

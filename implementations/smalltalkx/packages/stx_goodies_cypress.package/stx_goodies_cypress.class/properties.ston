@@ -1,0 +1,15 @@
+{
+	"_cypress_copyright" : "Copyright Jan Vrany & Dale Henrichs 2012",
+	"category" : "* Projects & Packages *",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"instvars" : [
+		 ],
+	"name" : "stx_goodies_cypress",
+	"namespace" : "Smalltalk",
+	"pools" : [
+		 ],
+	"super" : "LibraryDefinition",
+	"superNamespace" : "Smalltalk" }

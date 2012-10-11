@@ -1,0 +1,16 @@
+{
+	"_cypress_copyright" : "Copyright Jan Vrany & Dale Henrichs 2012",
+	"category" : "Cypress-New-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"instvars" : [
+		"comment",
+		"methods" ],
+	"name" : "CypressClass",
+	"namespace" : "Smalltalk",
+	"pools" : [
+		 ],
+	"super" : "CypressModel",
+	"superNamespace" : "Smalltalk" }

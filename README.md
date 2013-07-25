@@ -23,7 +23,7 @@ move changes between these branches.
 
 * [Pharo (FileTree)](https://github.com/dalehenrich/filetree)
 
-* [Smalltalk/X (Cypress)](https://swing.fit.cvut.cz/projects/stx-goodies/browser/stx.goodies.cypress/trunk)
+* [Smalltalk/X (Cypress)](https://bitbucket.org/janvrany/stx-goodies-cypress)
 
 * [Squeak (FileTree)](https://github.com/dalehenrich/filetree)
 
